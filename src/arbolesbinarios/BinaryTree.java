@@ -106,23 +106,3 @@ public class BinaryTree {
         }
     }
 }
-/*if (isEmpty()) {
-            System.out.println("No hay nodos");
-            return false;
-        } else if (root.data >= data) {
-            //Si no tiene elementos a la izquierda
-            root = root.right;
-            if (root.data == data) {
-                return true;
-                
-            }
-        } else {//Si tiene un elemento a la izquierda
-            //Buscará por la izquierda hasta encontrar un espacio.
-            root = root.left;
-            if (root.data == data) {
-                return true;
-            }
-        }
-        if (root.data ){
-        return false;
-        }*/
